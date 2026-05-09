@@ -1,30 +1,44 @@
-# Seed Classification using Machine Learning (SVM)
+# Machine Learning Projects Portfolio
 
 ## Developer
 Semere Brhane
 
-## Project Description
-This project is a machine learning classification system built using Python.
-It uses the Support Vector Machine (SVM) algorithm to classify seed data.
+## Overview
+This repository contains multiple machine learning projects implemented using Python and scikit-learn. Each project focuses on a different dataset and classification algorithm.
 
-The workflow includes:
-- Loading dataset using pandas
-- Data preprocessing and feature selection
-- Correlation analysis using heatmaps
-- Splitting data into training and testing sets
-- Building an SVM model using Pipeline
-- Hyperparameter tuning using GridSearchCV
-- Evaluating model performance using accuracy score
+## Projects Included
 
-## Dataset
-Seed_Data.csv is used for training and testing the model.
+### 1. Seed Classification (SVM)
+- Dataset: Seed_Data.csv
+- Algorithm: Support Vector Machine (SVM)
+- Techniques:
+  - Data preprocessing
+  - Feature scaling
+  - GridSearchCV hyperparameter tuning
+  - Model evaluation using accuracy score
+
+### 2. Breast Cancer Classification (Logistic Regression)
+- Dataset: Built-in sklearn breast cancer dataset
+- Algorithm: Logistic Regression
+- Techniques:
+  - Data standardization
+  - Train-test split
+  - Model training and prediction
+  - Confusion matrix evaluation
 
 ## Libraries Used
 - pandas
 - numpy
+- scikit-learn
 - matplotlib
 - seaborn
-- scikit-learn
 
-## Model
-Support Vector Machine (SVM) with GridSearchCV optimization
+## Purpose
+To demonstrate understanding of:
+- Supervised learning
+- Classification algorithms
+- Data preprocessing
+- Model evaluation techniques
+
+## Author
+Semere Brhane
